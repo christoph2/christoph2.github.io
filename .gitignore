@@ -1,1 +1,4 @@
 raspi_serv.sh
+docs/
+themes/
+__pycache__/
