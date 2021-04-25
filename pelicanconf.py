@@ -12,7 +12,7 @@ SITEDESCRIPTION = "Foo Bar's Thoughts and Writings"
 BROWSER_COLOR = "#333"
 ROBOTS = "index, follow"
 
-OUTPUT_PATH = 'docs/'
+OUTPUT_PATH = '/'
 
 PATH = 'content'
 TIMEZONE = 'Europe/Berlin'
