@@ -10,6 +10,7 @@ SITEDESCRIPTION = "Foo Bar's Thoughts and Writings"
 #SITELOGO = SITEURL + "/images/profile.png"
 #FAVICON = SITEURL + "/images/favicon.ico"
 
+
 BROWSER_COLOR = "#333"
 ROBOTS = "index, follow"
 
