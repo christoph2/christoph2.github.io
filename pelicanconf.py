@@ -20,7 +20,7 @@ TIMEZONE = 'Europe/Berlin'
 DEFAULT_LANG = 'en'
 DEFAULT_DATE = "fs"
 
-COPYRIGHT_YEAR = 2020
+COPYRIGHT_YEAR = 2021
 
 #EXTRA_PATH_METADATA = {
 #    "extra/custom.css": {"path": "static/custom.css"},
@@ -38,7 +38,7 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
-FEED_RSS = "rss"
+FEED_RSS = "feeds/christoph2.rss"
 
 # Blogroll
 LINKS = (
