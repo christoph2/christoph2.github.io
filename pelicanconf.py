@@ -3,7 +3,8 @@
 
 AUTHOR = 'Christoph Schueler'
 SITENAME = 'ASAM Intergration Package Newsfeed'
-SITEURL = ''
+
+SITEURL = 'christoph2.github.io'
 #SITESUBTITLE = 'Site Subtitle'
 SITEDESCRIPTION = "Foo Bar's Thoughts and Writings"
 #SITELOGO = SITEURL + "/images/profile.png"
@@ -31,11 +32,13 @@ MAIN_MENU = True
 
 
 # Feed generation is usually not desired when developing
+FEED_DOMAIN = SITEURL
 FEED_ALL_ATOM = ''
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
+FEED_RSS = "rss"
 
 # Blogroll
 LINKS = (
@@ -52,7 +55,7 @@ SOCIAL = (
 #    ('Another social link', '#'),
 )
 
-DEFAULT_PAGINATION = 10
+DEFAULT_CATEGORY = "open_source"
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
@@ -65,9 +68,12 @@ GITHUB_URL = 'https://github.com/christoph2'
 
 THEME = 'themes/Flex'
 
-# DISQUS_SITENAME = ''
+DISQUS_SITENAME = 'christoph2.github.io'
 # GOOGLE_ANALYTICS = ''
 
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
+
+TYPOGRIFY = True
+TYPOGRIFY_DASHES = 'oldschool'
 
