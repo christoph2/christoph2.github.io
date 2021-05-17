@@ -75,6 +75,6 @@ DISQUS_SITENAME = 'christoph2.github.io'
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
-TYPOGRIFY = True
-TYPOGRIFY_DASHES = 'oldschool'
+#TYPOGRIFY = True
+#TYPOGRIFY_DASHES = 'oldschool'
 
