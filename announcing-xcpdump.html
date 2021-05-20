@@ -1,167 +1,95 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="HandheldFriendly" content="True" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="robots" content="index, follow" />
+    <!-- Standard Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <!-- Site Properities -->
+    <title>Announcing xcpdump</title>
 
-  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <meta name="description" content="">
 
-    <link rel="stylesheet" type="text/css" href="christoph2.github.io/theme/stylesheet/style.min.css">
+    <meta property="og:site_name" content="ASAM Intergration Package Newsfeed" />
+    <meta property="og:locale" content="en" />
 
+<meta property="og:title" content="Announcing xcpdump" />
+<meta property="og:url" content="announcing-xcpdump.html"/>
+<meta property="og:description" content=" " />
+<meta property="og:type" content="article" />
+<meta property="og:author" content="Christoph Schueler" />
 
-    <link id="pygments-light-theme" rel="stylesheet" type="text/css"
-          href="christoph2.github.io/theme/pygments/github.min.css">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ASAM Intergration Package Newsfeed">
+    <meta name="twitter:description" content="">
+    <!--meta name="twitter:image" content=""-->
 
-
-  <link rel="stylesheet" type="text/css" href="christoph2.github.io/theme/font-awesome/css/fontawesome.css">
-  <link rel="stylesheet" type="text/css" href="christoph2.github.io/theme/font-awesome/css/brands.css">
-  <link rel="stylesheet" type="text/css" href="christoph2.github.io/theme/font-awesome/css/solid.css">
-
-
-
-
-
-  
-
-    <!-- Chrome, Firefox OS and Opera -->
-    <meta name="theme-color" content="#333">
-    <!-- Windows Phone -->
-    <meta name="msapplication-navbutton-color" content="#333">
-    <!-- iOS Safari -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <!-- Microsoft EDGE -->
-    <meta name="msapplication-TileColor" content="#333">
-
-<meta name="author" content="Christoph Schueler" />
-<meta name="description" content="I just released a new project on Github, xcpdump xcpdump is a sniffer/tracer similar to candump representing ASAM XCP CAN-Bus frames in a human readable form." />
-<meta name="keywords" content="xcp, automotive, asam, SocketCAN, Linux">
-
-
-<meta property="og:site_name" content="ASAM Intergration Package Newsfeed"/>
-<meta property="og:title" content="Announcing xcpdump"/>
-<meta property="og:description" content="I just released a new project on Github, xcpdump xcpdump is a sniffer/tracer similar to candump representing ASAM XCP CAN-Bus frames in a human readable form."/>
-<meta property="og:locale" content="en_US"/>
-<meta property="og:url" content="christoph2.github.io/announcing-xcpdump.html"/>
-<meta property="og:type" content="article"/>
-<meta property="article:published_time" content="2020-05-15 20:25:00+02:00"/>
-<meta property="article:modified_time" content="2021-05-16 12:33:27.406621+02:00"/>
-<meta property="article:author" content="christoph2.github.io/author/christoph-schueler.html">
-<meta property="article:section" content="open_source"/>
-<meta property="article:tag" content="xcp"/>
-<meta property="article:tag" content="automotive"/>
-<meta property="article:tag" content="asam"/>
-<meta property="article:tag" content="SocketCAN"/>
-<meta property="article:tag" content="Linux"/>
-<meta property="og:image" content="">
-
-  <title>ASAM Intergration Package Newsfeed &ndash; Announcing xcpdump</title>
-
+    <link rel="stylesheet" type="text/css" href="christoph2.github.io/theme/css/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="christoph2.github.io/theme/css/custom.css">
 </head>
-<body class="light-theme">
-  <aside>
-    <div>
-      <a href="christoph2.github.io">
-        <img src="christoph2.github.io/theme/img/profile.png" alt="" title="">
-      </a>
-
-      <h1>
-        <a href="christoph2.github.io"></a>
-      </h1>
-
-
-
-
-      <ul class="social">
-          <li>
-            <a  class="sc-github" href="https://github.com/christoph2" target="_blank">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-      </ul>
+<body>
+<div class="ui borderless fixed stackable main menu">
+    <div class="ui text container">
+        <a href="/" class="header item">
+            <img class="logo" src="christoph2.github.io/theme/images/logo.png">
+            ASAM Intergration Package Newsfeed
+        </a>
     </div>
-
-  </aside>
-  <main>
-
-    <nav>
-      <a href="christoph2.github.io">Home</a>
-
-
-
-    </nav>
-
-<article class="single">
-  <header>
-      
-    <h1 id="announcing-xcpdump">Announcing&nbsp;xcpdump</h1>
-    <p>
-      Posted on Fr 15 Mai 2020 in <a href="christoph2.github.io/category/open_source.html">open_source</a>
-
-    </p>
-  </header>
-
-
-  <div>
+</div>
+<div class="ui text container center aligned article-top">
+    <h1 class="ui header article-huge">Announcing xcpdump</h1>
+</div>
+<div class="ui text container tall stacked segment">
+    <div class="overlay">
+        <div class="ui labeled icon vertical menu">
+            <a class="item sharer" data-sharer="twitter" data-title="Announcing xcpdump" data-url="christoph2.github.io/announcing-xcpdump.html"><i class="twitter icon"></i> Tweet</a>
+            <a data-sharer="facebook" data-url="christoph2.github.io/announcing-xcpdump.html" class="item sharer"><i class="facebook icon"></i> Share</a>
+            <a data-sharer="googleplus" data-url="christoph2.github.io/announcing-xcpdump.html" class="item sharer"><i class="google plus icon"></i> Share</a>
+            <a class="item sharer" data-sharer="email" data-to="" data-title="Announcing xcpdump" data-subject="Checkout this article!" data-url="christoph2.github.io/announcing-xcpdump.html"><i class="mail icon"></i> E-mail</a>
+        </div>
+    </div>
     <p>I just released a new project on Github, <a class="reference external" href="https://github.com/christoph2/xcpdump">xcpdump</a></p>
-<p><strong>xcpdump</strong> is a sniffer/tracer similar to <strong>candump</strong> representing <a class="reference external" href="https://www.asam.net/standards/detail/mcd-1-xcp"><span class="caps">ASAM</span> <span class="caps">XCP</span></a> <span class="caps">CAN</span>-Bus frames in a human readable&nbsp;form.</p>
+<p><strong>xcpdump</strong> is a sniffer/tracer similar to <strong>candump</strong> representing <a class="reference external" href="https://www.asam.net/standards/detail/mcd-1-xcp">ASAM XCP</a> CAN-Bus frames in a human readable form.</p>
 <!-- image xcpdump_screenshot01.png -->
 
-  </div>
-  <div class="tag-cloud">
-    <p>
-      <a href="christoph2.github.io/tag/xcp.html">xcp</a>
-      <a href="christoph2.github.io/tag/automotive.html">automotive</a>
-      <a href="christoph2.github.io/tag/asam.html">asam</a>
-      <a href="christoph2.github.io/tag/socketcan.html">SocketCAN</a>
-      <a href="christoph2.github.io/tag/linux.html">Linux</a>
-    </p>
-  </div>
 
-
-
-
-
-<!-- Disqus -->
 <div id="disqus_thread"></div>
-<script type="text/javascript">
-    var disqus_shortname = 'christoph2.github.io';
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
+<script>
+var disqus_config = function () {
+    this.page.url = 'christoph2.github.io/announcing-xcpdump.html';
+    this.page.identifier = 'christoph2.github.io';
+};
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+s.src = '//christoph2.github.io.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
 </script>
-<noscript>
-    Please enable JavaScript to view comments.
-</noscript>
-<!-- End Disqus -->
-</article>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript></div>
 
-    <footer>
-<p>&copy; 2021 </p>
-<p>
-Built with <a href="http://getpelican.com" target="_blank">Pelican</a> using <a href="http://bit.ly/flex-pelican" target="_blank">Flex</a> theme
-</p>    </footer>
-  </main>
-
-
-
-
-<script type="application/ld+json">
-{
-  "@context" : "http://schema.org",
-  "@type" : "Blog",
-  "name": " ASAM Intergration Package Newsfeed ",
-  "url" : "christoph2.github.io",
-  "image": "",
-  "description": "Foo Bar's Thoughts and Writings"
-}
-</script>
-
+<div class="ui inverted vertical footer segment">
+    <div class="ui center aligned container">
+        <div class="ui stackable inverted divided grid">
+            <div class="eight wide column">
+                <h4 class="ui inverted header">Links</h4>
+                <div class="ui inverted link list">
+                </div>
+            </div>
+            <div class="four wide column">
+                <h4 class="ui inverted header">Extra content</h4>
+                <p>Some content</p>
+            </div>
+        </div>
+        <div class="ui inverted section divider"></div>
+        <img class="ui centered mini image" src="christoph2.github.io/theme/images/logo.png">
+        <div class="ui horizontal inverted small divided link list">
+        </div>
+    </div>
+</div>
+    <script type="text/javascript" src="christoph2.github.io/theme/js/jquery.min.js"></script>
+    <script type="text/javascript" src="christoph2.github.io/theme/js/semantic.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/sharer.js/0.2.4/sharer.min.js"></script>
+    <script id="dsq-count-scr" src="//christoph2.github.io.disqus.com/count.js" async></script>
 </body>
 </html>

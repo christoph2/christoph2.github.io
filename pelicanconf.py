@@ -67,7 +67,7 @@ SUMMARY_MAX_LENGTH = 60
 DEFAULT_PAGINATION = 10
 GITHUB_URL = 'https://github.com/christoph2'
 
-THEME = 'themes/Flex'
+THEME = 'themes/pelican-semantic-ui'
 
 DISQUS_SITENAME = 'christoph2.github.io'
 # GOOGLE_ANALYTICS = ''
